@@ -5,7 +5,7 @@ import static org.assertj.core.api.Assertions.assertThat;
 import lombok.SneakyThrows;
 import org.junit.jupiter.api.Test;
 
-class SudokuValidator {
+class SudokuBoardRecognizerTest {
 
   @Test
   @SneakyThrows
