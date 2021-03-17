@@ -39,7 +39,6 @@ class SudokuFileOpsTest {
   }
 
   @Test
-  @SneakyThrows
   void readDataShouldThrowAnExceptionWhenThereIsAGapInTheBoard()  {
     assertThatThrownBy(
         () -> new SudokuFileOps().readData("src//test//resources//validBoardWithAGap.txt"))
@@ -48,7 +47,6 @@ class SudokuFileOpsTest {
   }
 
   @Test
-  @SneakyThrows
   void readDataShouldThrowAnExceptionWhenThereIsAnAlphanumericInTheBoard() {
     // when and then
     assertThatThrownBy(
@@ -58,7 +56,6 @@ class SudokuFileOpsTest {
   }
 
   @Test
-  @SneakyThrows
   void readDataShouldThrowAnExceptionWhenTheGridSizeIsIncorrect() {
     // when and then
     assertThatThrownBy(
