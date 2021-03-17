@@ -52,3 +52,9 @@ launch example 2
 ```
 .\validate.sh sudokuBoardRecogniser/src/test/resources/validSudokuPuzzle.txt
 ```
+
+github link
+`https://github.com/rajeshso/sudokuBoardRecogniser`
+
+travis ci link
+`https://travis-ci.org/github/rajeshso/sudokuBoardRecogniser`
