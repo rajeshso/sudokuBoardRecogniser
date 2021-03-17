@@ -56,6 +56,7 @@ The format of the file should be
 
 1. The values of the cells should be in the range of 1-9
 2. The empty cell should be a zero
+3. There shall not be any other characters other than the sudoku values
 
 This is an example to illustrate a typical sudoku puzzle
 
